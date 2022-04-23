@@ -1,5 +1,7 @@
 # `SlaMax`
 
+![Build Status](https://github.com/mikaelvesavuori/slamax/workflows/build/badge.svg) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmikaelvesavuori%2Fslamax.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmikaelvesavuori%2Fslamax?ref=badge_shield) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mikaelvesavuori_slamax&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mikaelvesavuori_slamax) [![codecov](https://codecov.io/gh/mikaelvesavuori/slamax/branch/main/graph/badge.svg?token=AIV06YBT8U)](https://codecov.io/gh/mikaelvesavuori/slamax) [![Maintainability](https://api.codeclimate.com/v1/badges/a312d7e84db2bed1acd6/maintainability)](https://codeclimate.com/github/mikaelvesavuori/slamax/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a312d7e84db2bed1acd6/test_coverage)](https://codeclimate.com/github/mikaelvesavuori/slamax/test_coverage)
+
 **Calculates maximum composite SLA for a list of sequentially provided cloud services or your custom-defined services.**
 
 Here's a few use-cases you can use `SlaMax` for:

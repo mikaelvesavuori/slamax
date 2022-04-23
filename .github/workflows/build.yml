@@ -33,9 +33,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          gh release download --repo 'errata-ai/vale' -p 'vale_2.11.2_Linux_64-bit.tar.gz'
-          tar -xf 'vale_2.11.2_Linux_64-bit.tar.gz'
-          ./vale -v
           npm ci --ignore-scripts
           npm audit fix
           npm install -g
