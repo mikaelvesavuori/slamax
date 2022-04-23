@@ -3,7 +3,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "build",
-    "target": "es6",
+    "target": "es2020",
     "lib": ["esnext", "dom"],
     "declaration": true,
     "esModuleInterop": true,

@@ -26,7 +26,9 @@ Run `npm install slamax` or `yarn install slamax`.
 An example using both an AWS service (see below for all available services and their keys) and a custom service (must start with `custom`). Custom items **must** include an `sla` key with a numeric value.
 
 ```TypeScript
-import { SlaMax } from 'slamax';
+import slamax from 'slamax';          // ES6+
+//const slamax = require('slamax');   // ES5
+const { SlaMax } = slamax;
 
 const listOfSlas = [
   {

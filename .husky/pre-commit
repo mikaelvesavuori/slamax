@@ -2,6 +2,7 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm test
+npm run build
 npm run lint
 npm run lint:vale
 npm run docs

@@ -16,7 +16,3 @@ export default function SlaMax(slaMaxInput: SlaMaxInput[]): number {
     return error.message;
   }
 }
-
-// @ts-ignore
-const result = SlaMax();
-console.log(result);

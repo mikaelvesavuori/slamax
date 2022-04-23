@@ -1,6 +1,6 @@
 {
   "name": "slamax",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Calculates maximum composite SLA for a list of sequentially provided cloud services or your custom-defined services",
   "homepage": "https://github.com/mikaelvesavuori/slamax",
   "repository": {
@@ -23,8 +23,9 @@
   "scripts": {
     "start": "node ./build/index.js",
     "test": "npx c8 -reporter=lcov ava",
-    "build": "rm -rf build && npx webpack",
+    "build": "rm -rf build && npx webpack && mv build/src/index.d.ts build && rm -rf build/tests && npm run fix:export",
     "build:hosting": "npm run docs && cp -r diagrams typedoc-docs",
+    "fix:export": "echo \"export { default as SlaMax } from './src/adapters/library';\" > build/index.d.ts",
     "lint": "npx eslint './src/**/*.ts' --quiet --fix",
     "lint:vale": "vale README.md",
     "docs": "npm run docs:depcruise && npm run docs:typedoc",
