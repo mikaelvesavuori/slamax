@@ -15,12 +15,12 @@
   ],
   "scripts": {
     "start": "node ./build/index.js",
-    "test": "c8 ava",
+    "test": "npx c8 -reporter=lcov ava",
     "build": "rm -rf build && npx webpack",
     "build:hosting": "npm run docs && cp -r diagrams typedoc-docs",
     "lint": "npx eslint './src/**/*.ts' --quiet --fix",
-    "docs": "npm run docs:vale && npm run docs:depcruise && npm run docs:typedoc",
-    "docs:vale": "vale README.md",
+    "lint:vale": "vale README.md",
+    "docs": "npm run docs:depcruise && npm run docs:typedoc",
     "docs:depcruise": "npx depcruise --include-only '^src' --output-type dot src | dot -T svg > diagrams/dependencygraph.svg",
     "docs:typedoc": "npx typedoc --entryPointStrategy expand",
     "prepare": "husky install"
