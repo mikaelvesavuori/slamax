@@ -2,16 +2,23 @@
   "name": "slamax",
   "version": "0.0.6",
   "description": "Calculates maximum composite SLA for a list of sequentially provided cloud services or your custom-defined services",
+  "homepage": "https://github.com/mikaelvesavuori/slamax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelvesavuori/slamax.git"
+  },
   "author": "Mikael Vesavuori",
+  "keywords": [
+    "sla",
+    "sla-calculator",
+    "sla-calculation",
+    "cloud-sla"
+  ],
   "license": "MIT",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
     "build/*"
-  ],
-  "keywords": [
-    "sla",
-    "sla-calculator"
   ],
   "scripts": {
     "start": "node ./build/index.js",
