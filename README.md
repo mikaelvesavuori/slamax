@@ -45,6 +45,7 @@ console.log(`The maximum composite SLA is ${maxSla}%`);
 ## Diagram
 
 ![Dependency graph](./diagrams/dependencygraph.svg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmikaelvesavuori%2Fslamax.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmikaelvesavuori%2Fslamax?ref=badge_shield)
 
 ---
 
@@ -438,3 +439,7 @@ Please refer to [https://cloud.google.com/terms/sla](https://cloud.google.com/te
 | Vertex AI - Training, Deployment, Batch Prediction; Tabular, Image Online Prediction; Text Language Online Prediction  | `gcp-vertex-ai-prediction`                                          | 99.9%   |
 | Vertex AI - Custom Model Online Prediction for models deployed on 2 or more nodes; Vertex Pipelinesasdf                | `gcp-vertex-ai-custom`                                              | 99.5%   |
 | Video Intelligence API                                                                                                 | `gcp-video-intelligence`                                            | 99.9%   |
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmikaelvesavuori%2Fslamax.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmikaelvesavuori%2Fslamax?ref=badge_large)
