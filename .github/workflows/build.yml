@@ -1,0 +1,54 @@
+name: build
+
+on:
+  push:
+    branches:
+      - 'main'
+
+permissions:
+  actions: read
+
+jobs:
+  build-unix:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ['ubuntu-latest', 'macos-latest']
+        node-version: [16.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-
+
+      - name: Install dependencies
+        run: |
+          gh release download --repo 'errata-ai/vale' -p 'vale_2.11.2_Linux_64-bit.tar.gz'
+          tar -xf 'vale_2.11.2_Linux_64-bit.tar.gz'
+          ./vale -v
+          npm ci --ignore-scripts
+          npm audit fix
+          npm install -g
+
+      - name: Test
+        run: npm test
+
+      - name: Codecov
+        uses: codecov/codecov-action@v2
+
+      - name: Send coverage report with Code Climate
+        uses: paambaati/codeclimate-action@v3.0.0
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        with:
+          coverageLocations: ${{ github.workspace }}/coverage/lcov.info:lcov

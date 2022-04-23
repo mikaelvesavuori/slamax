@@ -1,0 +1,6 @@
+.env
+.dccache
+coverage/
+node_modules/
+typedoc-docs/
+.webpack/

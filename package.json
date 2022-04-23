@@ -1,0 +1,60 @@
+{
+  "name": "slamax",
+  "version": "0.0.6",
+  "description": "Calculates maximum composite SLA for a list of sequentially provided cloud services or your custom-defined services",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/*"
+  ],
+  "keywords": [
+    "sla",
+    "sla-calculator"
+  ],
+  "scripts": {
+    "start": "node ./build/index.js",
+    "test": "c8 ava",
+    "build": "rm -rf build && npx webpack",
+    "build:hosting": "npm run docs && cp -r diagrams typedoc-docs",
+    "lint": "npx eslint './src/**/*.ts' --quiet --fix",
+    "docs": "npm run docs:vale && npm run docs:depcruise && npm run docs:typedoc",
+    "docs:vale": "vale README.md",
+    "docs:depcruise": "npx depcruise --include-only '^src' --output-type dot src | dot -T svg > diagrams/dependencygraph.svg",
+    "docs:typedoc": "npx typedoc --entryPointStrategy expand",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/jest": "27",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "5",
+    "@typescript-eslint/parser": "5",
+    "ava": "4",
+    "c8": "7",
+    "dependency-cruiser": "11",
+    "eslint": "8",
+    "eslint-config-prettier": "8",
+    "eslint-plugin-prettier": "4",
+    "husky": "7",
+    "prettier": "2",
+    "ts-loader": "latest",
+    "ts-node": "latest",
+    "tslib": "latest",
+    "typedoc": "latest",
+    "typescript": "4",
+    "webpack": "5",
+    "webpack-cli": "latest"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "files": [
+      "tests/**/*.ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
