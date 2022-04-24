@@ -1,6 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+npm run get:slas
 npm test
 npm run build
 npm run lint

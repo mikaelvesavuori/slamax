@@ -1,6 +1,6 @@
 {
   "name": "slamax",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Calculates maximum composite SLA for a list of sequentially provided cloud services or your custom-defined services",
   "homepage": "https://github.com/mikaelvesavuori/slamax",
   "repository": {
@@ -31,6 +31,7 @@
     "docs": "npm run docs:depcruise && npm run docs:typedoc",
     "docs:depcruise": "npx depcruise --include-only '^src' --output-type dot src | dot -T svg > diagrams/dependencygraph.svg",
     "docs:typedoc": "npx typedoc --entryPointStrategy expand",
+    "get:slas": "bash get-latest-slas.sh",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -39,6 +40,7 @@
     "@typescript-eslint/eslint-plugin": "5",
     "@typescript-eslint/parser": "5",
     "ava": "4",
+    "babel-loader": "8",
     "c8": "7",
     "dependency-cruiser": "11",
     "eslint": "8",

@@ -51,8 +51,8 @@
 </g>
 <g id="clust5" class="cluster">
 <title>cluster_src/domain/data</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M346.5,-84C346.5,-84 575,-84 575,-84 581,-84 587,-90 587,-96 587,-96 587,-184 587,-184 587,-190 581,-196 575,-196 575,-196 346.5,-196 346.5,-196 340.5,-196 334.5,-190 334.5,-184 334.5,-184 334.5,-96 334.5,-96 334.5,-90 340.5,-84 346.5,-84"/>
-<text text-anchor="middle" x="460.75" y="-184.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">data</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M346.5,-84C346.5,-84 564,-84 564,-84 570,-84 576,-90 576,-96 576,-96 576,-184 576,-184 576,-190 570,-196 564,-196 564,-196 346.5,-196 346.5,-196 340.5,-196 334.5,-190 334.5,-184 334.5,-184 334.5,-96 334.5,-96 334.5,-90 340.5,-84 346.5,-84"/>
+<text text-anchor="middle" x="455.25" y="-184.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">data</text>
 </g>
 <g id="clust10" class="cluster">
 <title>cluster_src/usecases</title>
@@ -159,9 +159,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="328.69,-451.37 335.02,-451.9 330.4,-447.54 328.69,-451.37"/>
 </g>
 <!-- src/domain/data/serviceSlaData.ts -->
-<g id="node7" class="node">
+<g id="node10" class="node">
 <title>src/domain/data/serviceSlaData.ts</title>
-<g id="a_node7"><a xlink:href="src/domain/data/serviceSlaData.ts" xlink:title="serviceSlaData.ts">
+<g id="a_node10"><a xlink:href="src/domain/data/serviceSlaData.ts" xlink:title="serviceSlaData.ts">
 <path fill="#ddfeff" stroke="black" d="M424.5,-155C424.5,-155 348.5,-155 348.5,-155 345.5,-155 342.5,-152 342.5,-149 342.5,-149 342.5,-143 342.5,-143 342.5,-140 345.5,-137 348.5,-137 348.5,-137 424.5,-137 424.5,-137 427.5,-137 430.5,-140 430.5,-143 430.5,-143 430.5,-149 430.5,-149 430.5,-152 427.5,-155 424.5,-155"/>
 <text text-anchor="start" x="350.5" y="-143.8" font-family="Helvetica,sans-Serif" font-size="9.00">serviceSlaData.ts</text>
 </a>
@@ -233,50 +233,50 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.82,-451.99C439.41,-449.99 449.55,-447.89 459,-446 466.81,-444.44 475.06,-442.82 483.16,-441.25"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="483.82,-443.26 489.32,-440.07 483.03,-439.14 483.82,-443.26"/>
 </g>
-<!-- src/domain/data/slaDataAws.ts -->
+<!-- src/domain/data/aws.json -->
+<g id="node7" class="node">
+<title>src/domain/data/aws.json</title>
+<g id="a_node7"><a xlink:href="src/domain/data/aws.json" xlink:title="aws.json">
+<path fill="#ffee44" stroke="black" d="M559.5,-110C559.5,-110 517.5,-110 517.5,-110 514.5,-110 511.5,-107 511.5,-104 511.5,-104 511.5,-98 511.5,-98 511.5,-95 514.5,-92 517.5,-92 517.5,-92 559.5,-92 559.5,-92 562.5,-92 565.5,-95 565.5,-98 565.5,-98 565.5,-104 565.5,-104 565.5,-107 562.5,-110 559.5,-110"/>
+<text text-anchor="start" x="520" y="-98.8" font-family="Helvetica,sans-Serif" font-size="9.00">aws.json</text>
+</a>
+</g>
+</g>
+<!-- src/domain/data/azure.json -->
 <g id="node8" class="node">
-<title>src/domain/data/slaDataAws.ts</title>
-<g id="a_node8"><a xlink:href="src/domain/data/slaDataAws.ts" xlink:title="slaDataAws.ts">
-<path fill="#ddfeff" stroke="black" d="M569.5,-110C569.5,-110 507.5,-110 507.5,-110 504.5,-110 501.5,-107 501.5,-104 501.5,-104 501.5,-98 501.5,-98 501.5,-95 504.5,-92 507.5,-92 507.5,-92 569.5,-92 569.5,-92 572.5,-92 575.5,-95 575.5,-98 575.5,-98 575.5,-104 575.5,-104 575.5,-107 572.5,-110 569.5,-110"/>
-<text text-anchor="start" x="509.5" y="-98.8" font-family="Helvetica,sans-Serif" font-size="9.00">slaDataAws.ts</text>
+<title>src/domain/data/azure.json</title>
+<g id="a_node8"><a xlink:href="src/domain/data/azure.json" xlink:title="azure.json">
+<path fill="#ffee44" stroke="black" d="M562,-140C562,-140 515,-140 515,-140 512,-140 509,-137 509,-134 509,-134 509,-128 509,-128 509,-125 512,-122 515,-122 515,-122 562,-122 562,-122 565,-122 568,-125 568,-128 568,-128 568,-134 568,-134 568,-137 565,-140 562,-140"/>
+<text text-anchor="start" x="517" y="-128.8" font-family="Helvetica,sans-Serif" font-size="9.00">azure.json</text>
 </a>
 </g>
 </g>
-<!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/slaDataAws.ts -->
-<g id="edge5" class="edge">
-<title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/slaDataAws.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M406.22,-136.87C420.42,-130.27 440.57,-121.56 459,-116 470.54,-112.52 483.28,-109.67 495.09,-107.43"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="495.64,-109.47 501.16,-106.32 494.88,-105.33 495.64,-109.47"/>
-</g>
-<!-- src/domain/data/slaDataAzure.ts -->
+<!-- src/domain/data/gcp.json -->
 <g id="node9" class="node">
-<title>src/domain/data/slaDataAzure.ts</title>
-<g id="a_node9"><a xlink:href="src/domain/data/slaDataAzure.ts" xlink:title="slaDataAzure.ts">
-<path fill="#ddfeff" stroke="black" d="M573,-140C573,-140 504,-140 504,-140 501,-140 498,-137 498,-134 498,-134 498,-128 498,-128 498,-125 501,-122 504,-122 504,-122 573,-122 573,-122 576,-122 579,-125 579,-128 579,-128 579,-134 579,-134 579,-137 576,-140 573,-140"/>
-<text text-anchor="start" x="506" y="-128.8" font-family="Helvetica,sans-Serif" font-size="9.00">slaDataAzure.ts</text>
+<title>src/domain/data/gcp.json</title>
+<g id="a_node9"><a xlink:href="src/domain/data/gcp.json" xlink:title="gcp.json">
+<path fill="#ffee44" stroke="black" d="M559.5,-170C559.5,-170 517.5,-170 517.5,-170 514.5,-170 511.5,-167 511.5,-164 511.5,-164 511.5,-158 511.5,-158 511.5,-155 514.5,-152 517.5,-152 517.5,-152 559.5,-152 559.5,-152 562.5,-152 565.5,-155 565.5,-158 565.5,-158 565.5,-164 565.5,-164 565.5,-167 562.5,-170 559.5,-170"/>
+<text text-anchor="start" x="521" y="-158.8" font-family="Helvetica,sans-Serif" font-size="9.00">gcp.json</text>
 </a>
 </g>
 </g>
-<!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/slaDataAzure.ts -->
+<!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/aws.json -->
+<g id="edge5" class="edge">
+<title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/aws.json</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M406.22,-136.87C420.42,-130.27 440.57,-121.56 459,-116 473.99,-111.48 491.03,-108.03 505.39,-105.58"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="505.78,-107.64 511.36,-104.59 505.1,-103.5 505.78,-107.64"/>
+</g>
+<!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/azure.json -->
 <g id="edge6" class="edge">
-<title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/slaDataAzure.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-141.66C449.94,-139.76 472.32,-137.52 491.64,-135.59"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="492.04,-137.66 497.8,-134.97 491.62,-133.48 492.04,-137.66"/>
+<title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/azure.json</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-141.66C453.72,-139.38 481.35,-136.62 502.76,-134.47"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="503.14,-136.55 508.9,-133.86 502.72,-132.37 503.14,-136.55"/>
 </g>
-<!-- src/domain/data/slaDataGcp.ts -->
-<g id="node10" class="node">
-<title>src/domain/data/slaDataGcp.ts</title>
-<g id="a_node10"><a xlink:href="src/domain/data/slaDataGcp.ts" xlink:title="slaDataGcp.ts">
-<path fill="#ddfeff" stroke="black" d="M569.5,-170C569.5,-170 507.5,-170 507.5,-170 504.5,-170 501.5,-167 501.5,-164 501.5,-164 501.5,-158 501.5,-158 501.5,-155 504.5,-152 507.5,-152 507.5,-152 569.5,-152 569.5,-152 572.5,-152 575.5,-155 575.5,-158 575.5,-158 575.5,-164 575.5,-164 575.5,-167 572.5,-170 569.5,-170"/>
-<text text-anchor="start" x="509.5" y="-158.8" font-family="Helvetica,sans-Serif" font-size="9.00">slaDataGcp.ts</text>
-</a>
-</g>
-</g>
-<!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/slaDataGcp.ts -->
+<!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/gcp.json -->
 <g id="edge7" class="edge">
-<title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/slaDataGcp.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-150.34C451.12,-152.36 475.1,-154.76 495.2,-156.77"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="495.12,-158.87 501.3,-157.38 495.54,-154.69 495.12,-158.87"/>
+<title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/gcp.json</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-150.34C454.51,-152.7 483.26,-155.58 504.95,-157.74"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="504.97,-159.86 511.15,-158.37 505.39,-155.68 504.97,-159.86"/>
 </g>
 <!-- src/domain/errors/InvalidServiceDataError.ts -->
 <g id="node14" class="node">
