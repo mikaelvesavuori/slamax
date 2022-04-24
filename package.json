@@ -32,7 +32,8 @@
     "docs:depcruise": "npx depcruise --include-only '^src' --output-type dot src | dot -T svg > diagrams/dependencygraph.svg",
     "docs:typedoc": "npx typedoc --entryPointStrategy expand",
     "get:slas": "bash get-latest-slas.sh",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "generate:json": "ts-node ./scripts/generateJson.ts ./generated/sla_data.json"
   },
   "devDependencies": {
     "@types/jest": "27",
