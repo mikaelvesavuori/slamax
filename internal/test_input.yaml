@@ -1,0 +1,9 @@
+- name: aws-lambda
+- name: foo
+  sla: 99.95
+- name: bar
+  sla: 99.99
+- name: baz
+  sla: 99.99
+- name: oof
+  sla: 99.99
