@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import { serviceSlaData } from '../src/domain/data/serviceSlaData';
 
-const generateJson = async (outputPath: string) => {
+const generateJson = (outputPath: string) => {
   const serviceSla = new Map<string, number>();
   for (let data of serviceSlaData) {
     serviceSla.set(data.name, data.sla);
