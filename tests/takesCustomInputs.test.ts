@@ -28,7 +28,7 @@ test(`Takes custom inputs`, (t) => {
     }
   ];
 
-  const expected = 93.95;
+  const expected = 93.956;
 
   const fn = CalculateMaxSlaUseCase(slas);
   t.is(fn, expected);

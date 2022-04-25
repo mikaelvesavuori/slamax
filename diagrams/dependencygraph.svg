@@ -14,57 +14,57 @@
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M20,-8C20,-8 622,-8 622,-8 628,-8 634,-14 634,-20 634,-20 634,-536 634,-536 634,-542 628,-548 622,-548 622,-548 20,-548 20,-548 14,-548 8,-542 8,-536 8,-536 8,-20 8,-20 8,-14 14,-8 20,-8"/>
 <text text-anchor="middle" x="321" y="-536.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">src</text>
 </g>
+<g id="clust9" class="cluster">
+<title>cluster_src/infrastructure</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M351.5,-16C351.5,-16 421.5,-16 421.5,-16 427.5,-16 433.5,-22 433.5,-28 433.5,-28 433.5,-56 433.5,-56 433.5,-62 427.5,-68 421.5,-68 421.5,-68 351.5,-68 351.5,-68 345.5,-68 339.5,-62 339.5,-56 339.5,-56 339.5,-28 339.5,-28 339.5,-22 345.5,-16 351.5,-16"/>
+<text text-anchor="middle" x="386.5" y="-56.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">infrastructure</text>
+</g>
 <g id="clust2" class="cluster">
 <title>cluster_src/adapters</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M90,-89C90,-89 136,-89 136,-89 142,-89 148,-95 148,-101 148,-101 148,-129 148,-129 148,-135 142,-141 136,-141 136,-141 90,-141 90,-141 84,-141 78,-135 78,-129 78,-129 78,-101 78,-101 78,-95 84,-89 90,-89"/>
-<text text-anchor="middle" x="113" y="-129.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">adapters</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M90,-157C90,-157 136,-157 136,-157 142,-157 148,-163 148,-169 148,-169 148,-197 148,-197 148,-203 142,-209 136,-209 136,-209 90,-209 90,-209 84,-209 78,-203 78,-197 78,-197 78,-169 78,-169 78,-163 84,-157 90,-157"/>
+<text text-anchor="middle" x="113" y="-197.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">adapters</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_src/domain</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M326,-76C326,-76 614,-76 614,-76 620,-76 626,-82 626,-88 626,-88 626,-510 626,-510 626,-516 620,-522 614,-522 614,-522 326,-522 326,-522 320,-522 314,-516 314,-510 314,-510 314,-88 314,-88 314,-82 320,-76 326,-76"/>
 <text text-anchor="middle" x="470" y="-510.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">domain</text>
 </g>
-<g id="clust5" class="cluster">
-<title>cluster_src/domain/data</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M346.5,-384C346.5,-384 564,-384 564,-384 570,-384 576,-390 576,-396 576,-396 576,-484 576,-484 576,-490 570,-496 564,-496 564,-496 346.5,-496 346.5,-496 340.5,-496 334.5,-490 334.5,-484 334.5,-484 334.5,-396 334.5,-396 334.5,-390 340.5,-384 346.5,-384"/>
-<text text-anchor="middle" x="455.25" y="-484.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">data</text>
-</g>
 <g id="clust4" class="cluster">
 <title>cluster_src/domain/aggregates</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M334,-324C334,-324 439,-324 439,-324 445,-324 451,-330 451,-336 451,-336 451,-364 451,-364 451,-370 445,-376 439,-376 439,-376 334,-376 334,-376 328,-376 322,-370 322,-364 322,-364 322,-336 322,-336 322,-330 328,-324 334,-324"/>
-<text text-anchor="middle" x="386.5" y="-364.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">aggregates</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M334,-444C334,-444 439,-444 439,-444 445,-444 451,-450 451,-456 451,-456 451,-484 451,-484 451,-490 445,-496 439,-496 439,-496 334,-496 334,-496 328,-496 322,-490 322,-484 322,-484 322,-456 322,-456 322,-450 328,-444 334,-444"/>
+<text text-anchor="middle" x="386.5" y="-484.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">aggregates</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_src/domain/errors</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M471,-84C471,-84 606,-84 606,-84 612,-84 618,-90 618,-96 618,-96 618,-364 618,-364 618,-370 612,-376 606,-376 606,-376 471,-376 471,-376 465,-376 459,-370 459,-364 459,-364 459,-96 459,-96 459,-90 465,-84 471,-84"/>
-<text text-anchor="middle" x="538.5" y="-364.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">errors</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M471,-204C471,-204 606,-204 606,-204 612,-204 618,-210 618,-216 618,-216 618,-484 618,-484 618,-490 612,-496 606,-496 606,-496 471,-496 471,-496 465,-496 459,-490 459,-484 459,-484 459,-216 459,-216 459,-210 465,-204 471,-204"/>
+<text text-anchor="middle" x="538.5" y="-484.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">errors</text>
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_src/domain/interfaces</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M334,-174C334,-174 439,-174 439,-174 445,-174 451,-180 451,-186 451,-186 451,-304 451,-304 451,-310 445,-316 439,-316 439,-316 334,-316 334,-316 328,-316 322,-310 322,-304 322,-304 322,-186 322,-186 322,-180 328,-174 334,-174"/>
-<text text-anchor="middle" x="386.5" y="-304.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">interfaces</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M334,-294C334,-294 439,-294 439,-294 445,-294 451,-300 451,-306 451,-306 451,-424 451,-424 451,-430 445,-436 439,-436 439,-436 334,-436 334,-436 328,-436 322,-430 322,-424 322,-424 322,-306 322,-306 322,-300 328,-294 334,-294"/>
+<text text-anchor="middle" x="386.5" y="-424.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">interfaces</text>
 </g>
 <g id="clust8" class="cluster">
 <title>cluster_src/domain/valueObjects</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M348,-84C348,-84 425,-84 425,-84 431,-84 437,-90 437,-96 437,-96 437,-154 437,-154 437,-160 431,-166 425,-166 425,-166 348,-166 348,-166 342,-166 336,-160 336,-154 336,-154 336,-96 336,-96 336,-90 342,-84 348,-84"/>
-<text text-anchor="middle" x="386.5" y="-154.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">valueObjects</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M348,-204C348,-204 425,-204 425,-204 431,-204 437,-210 437,-216 437,-216 437,-274 437,-274 437,-280 431,-286 425,-286 425,-286 348,-286 348,-286 342,-286 336,-280 336,-274 336,-274 336,-216 336,-216 336,-210 342,-204 348,-204"/>
+<text text-anchor="middle" x="386.5" y="-274.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">valueObjects</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_src/domain/data</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M346.5,-84C346.5,-84 564,-84 564,-84 570,-84 576,-90 576,-96 576,-96 576,-184 576,-184 576,-190 570,-196 564,-196 564,-196 346.5,-196 346.5,-196 340.5,-196 334.5,-190 334.5,-184 334.5,-184 334.5,-96 334.5,-96 334.5,-90 340.5,-84 346.5,-84"/>
+<text text-anchor="middle" x="455.25" y="-184.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">data</text>
 </g>
 <g id="clust10" class="cluster">
 <title>cluster_src/usecases</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M168,-114C168,-114 294,-114 294,-114 300,-114 306,-120 306,-126 306,-126 306,-154 306,-154 306,-160 300,-166 294,-166 294,-166 168,-166 168,-166 162,-166 156,-160 156,-154 156,-154 156,-126 156,-126 156,-120 162,-114 168,-114"/>
-<text text-anchor="middle" x="231" y="-154.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">usecases</text>
-</g>
-<g id="clust9" class="cluster">
-<title>cluster_src/infrastructure</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M351.5,-16C351.5,-16 421.5,-16 421.5,-16 427.5,-16 433.5,-22 433.5,-28 433.5,-28 433.5,-56 433.5,-56 433.5,-62 427.5,-68 421.5,-68 421.5,-68 351.5,-68 351.5,-68 345.5,-68 339.5,-62 339.5,-56 339.5,-56 339.5,-28 339.5,-28 339.5,-22 345.5,-16 351.5,-16"/>
-<text text-anchor="middle" x="386.5" y="-56.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">infrastructure</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M168,-204C168,-204 294,-204 294,-204 300,-204 306,-210 306,-216 306,-216 306,-244 306,-244 306,-250 300,-256 294,-256 294,-256 168,-256 168,-256 162,-256 156,-250 156,-244 156,-244 156,-216 156,-216 156,-210 162,-204 168,-204"/>
+<text text-anchor="middle" x="231" y="-244.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">usecases</text>
 </g>
 <!-- src/adapters/library.ts -->
 <g id="node1" class="node">
 <title>src/adapters/library.ts</title>
 <g id="a_node1"><a xlink:href="src/adapters/library.ts" xlink:title="library.ts">
-<path fill="#ddfeff" stroke="black" d="M134,-115C134,-115 92,-115 92,-115 89,-115 86,-112 86,-109 86,-109 86,-103 86,-103 86,-100 89,-97 92,-97 92,-97 134,-97 134,-97 137,-97 140,-100 140,-103 140,-103 140,-109 140,-109 140,-112 137,-115 134,-115"/>
-<text text-anchor="start" x="95.5" y="-103.8" font-family="Helvetica,sans-Serif" font-size="9.00">library.ts</text>
+<path fill="#ddfeff" stroke="black" d="M134,-183C134,-183 92,-183 92,-183 89,-183 86,-180 86,-177 86,-177 86,-171 86,-171 86,-168 89,-165 92,-165 92,-165 134,-165 134,-165 137,-165 140,-168 140,-171 140,-171 140,-177 140,-177 140,-180 137,-183 134,-183"/>
+<text text-anchor="start" x="95.5" y="-171.8" font-family="Helvetica,sans-Serif" font-size="9.00">library.ts</text>
 </a>
 </g>
 </g>
@@ -80,165 +80,165 @@
 <!-- src/adapters/library.ts&#45;&gt;src/infrastructure/validateInput.ts -->
 <g id="edge1" class="edge">
 <title>src/adapters/library.ts&#45;&gt;src/infrastructure/validateInput.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M140.03,-99C187.8,-86.16 289.69,-58.76 346.02,-43.61"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="346.75,-45.59 351.99,-42.01 345.65,-41.54 346.75,-45.59"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M131.4,-164.97C178.6,-140.45 309.1,-72.68 362.39,-45"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="363.54,-46.77 367.9,-42.14 361.6,-43.04 363.54,-46.77"/>
 </g>
 <!-- src/usecases/CalculateMaxSlaUseCase.ts -->
 <g id="node3" class="node">
 <title>src/usecases/CalculateMaxSlaUseCase.ts</title>
 <g id="a_node3"><a xlink:href="src/usecases/CalculateMaxSlaUseCase.ts" xlink:title="CalculateMaxSlaUseCase.ts">
-<path fill="#ddfeff" stroke="black" d="M292,-140C292,-140 170,-140 170,-140 167,-140 164,-137 164,-134 164,-134 164,-128 164,-128 164,-125 167,-122 170,-122 170,-122 292,-122 292,-122 295,-122 298,-125 298,-128 298,-128 298,-134 298,-134 298,-137 295,-140 292,-140"/>
-<text text-anchor="start" x="172" y="-128.8" font-family="Helvetica,sans-Serif" font-size="9.00">CalculateMaxSlaUseCase.ts</text>
+<path fill="#ddfeff" stroke="black" d="M292,-230C292,-230 170,-230 170,-230 167,-230 164,-227 164,-224 164,-224 164,-218 164,-218 164,-215 167,-212 170,-212 170,-212 292,-212 292,-212 295,-212 298,-215 298,-218 298,-218 298,-224 298,-224 298,-227 295,-230 292,-230"/>
+<text text-anchor="start" x="172" y="-218.8" font-family="Helvetica,sans-Serif" font-size="9.00">CalculateMaxSlaUseCase.ts</text>
 </a>
 </g>
 </g>
 <!-- src/adapters/library.ts&#45;&gt;src/usecases/CalculateMaxSlaUseCase.ts -->
 <g id="edge2" class="edge">
 <title>src/adapters/library.ts&#45;&gt;src/usecases/CalculateMaxSlaUseCase.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M140.03,-111.61C152.42,-114.28 167.65,-117.56 182.02,-120.66"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="181.81,-122.76 188.12,-121.97 182.7,-118.66 181.81,-122.76"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M136.37,-183.06C155.06,-190.64 181.82,-201.48 201.95,-209.63"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="201.35,-211.66 207.7,-211.97 202.93,-207.77 201.35,-211.66"/>
 </g>
 <!-- src/domain/errors/InputNotAnArrayError.ts -->
 <g id="node11" class="node">
 <title>src/domain/errors/InputNotAnArrayError.ts</title>
 <g id="a_node11"><a xlink:href="src/domain/errors/InputNotAnArrayError.ts" xlink:title="InputNotAnArrayError.ts">
-<path fill="#ddfeff" stroke="black" d="M589,-110C589,-110 488,-110 488,-110 485,-110 482,-107 482,-104 482,-104 482,-98 482,-98 482,-95 485,-92 488,-92 488,-92 589,-92 589,-92 592,-92 595,-95 595,-98 595,-98 595,-104 595,-104 595,-107 592,-110 589,-110"/>
-<text text-anchor="start" x="490" y="-98.8" font-family="Helvetica,sans-Serif" font-size="9.00">InputNotAnArrayError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M589,-230C589,-230 488,-230 488,-230 485,-230 482,-227 482,-224 482,-224 482,-218 482,-218 482,-215 485,-212 488,-212 488,-212 589,-212 589,-212 592,-212 595,-215 595,-218 595,-218 595,-224 595,-224 595,-227 592,-230 589,-230"/>
+<text text-anchor="start" x="490" y="-218.8" font-family="Helvetica,sans-Serif" font-size="9.00">InputNotAnArrayError.ts</text>
 </a>
 </g>
 </g>
 <!-- src/infrastructure/validateInput.ts&#45;&gt;src/domain/errors/InputNotAnArrayError.ts -->
 <g id="edge14" class="edge">
 <title>src/infrastructure/validateInput.ts&#45;&gt;src/domain/errors/InputNotAnArrayError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M407.42,-42.03C434.32,-54.22 482.28,-75.96 511.84,-89.37"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="511.17,-91.37 517.5,-91.93 512.9,-87.54 511.17,-91.37"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M407.28,-42.14C422.1,-50.13 441.4,-63.25 451,-81 463.5,-104.12 442.42,-178.61 459,-199 463.6,-204.66 469.54,-208.94 476.08,-212.15"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="475.36,-214.13 481.7,-214.61 477.05,-210.28 475.36,-214.13"/>
 </g>
 <!-- src/domain/errors/InputTooBigError.ts -->
 <g id="node12" class="node">
 <title>src/domain/errors/InputTooBigError.ts</title>
 <g id="a_node12"><a xlink:href="src/domain/errors/InputTooBigError.ts" xlink:title="InputTooBigError.ts">
-<path fill="#ddfeff" stroke="black" d="M580,-170C580,-170 497,-170 497,-170 494,-170 491,-167 491,-164 491,-164 491,-158 491,-158 491,-155 494,-152 497,-152 497,-152 580,-152 580,-152 583,-152 586,-155 586,-158 586,-158 586,-164 586,-164 586,-167 583,-170 580,-170"/>
-<text text-anchor="start" x="499" y="-158.8" font-family="Helvetica,sans-Serif" font-size="9.00">InputTooBigError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M580,-290C580,-290 497,-290 497,-290 494,-290 491,-287 491,-284 491,-284 491,-278 491,-278 491,-275 494,-272 497,-272 497,-272 580,-272 580,-272 583,-272 586,-275 586,-278 586,-278 586,-284 586,-284 586,-287 583,-290 580,-290"/>
+<text text-anchor="start" x="499" y="-278.8" font-family="Helvetica,sans-Serif" font-size="9.00">InputTooBigError.ts</text>
 </a>
 </g>
 </g>
 <!-- src/infrastructure/validateInput.ts&#45;&gt;src/domain/errors/InputTooBigError.ts -->
 <g id="edge15" class="edge">
 <title>src/infrastructure/validateInput.ts&#45;&gt;src/domain/errors/InputTooBigError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M406.71,-42.12C421.42,-50.19 440.85,-63.4 451,-81 465.54,-106.22 439.11,-124.75 459,-146 465.83,-153.3 475.03,-157.68 484.73,-160.2"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="484.51,-162.3 490.82,-161.54 485.41,-158.2 484.51,-162.3"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M407.4,-42.08C422.29,-50.03 441.62,-63.14 451,-81 460.56,-99.22 445.55,-250.43 459,-266 465.67,-273.72 474.99,-278.25 484.89,-280.77"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="484.46,-282.83 490.76,-282.04 485.34,-278.72 484.46,-282.83"/>
 </g>
 <!-- src/domain/errors/InputTooManyObjectsError.ts -->
 <g id="node13" class="node">
 <title>src/domain/errors/InputTooManyObjectsError.ts</title>
 <g id="a_node13"><a xlink:href="src/domain/errors/InputTooManyObjectsError.ts" xlink:title="InputTooManyObjectsError.ts">
-<path fill="#ddfeff" stroke="black" d="M599.5,-140C599.5,-140 477.5,-140 477.5,-140 474.5,-140 471.5,-137 471.5,-134 471.5,-134 471.5,-128 471.5,-128 471.5,-125 474.5,-122 477.5,-122 477.5,-122 599.5,-122 599.5,-122 602.5,-122 605.5,-125 605.5,-128 605.5,-128 605.5,-134 605.5,-134 605.5,-137 602.5,-140 599.5,-140"/>
-<text text-anchor="start" x="479.5" y="-128.8" font-family="Helvetica,sans-Serif" font-size="9.00">InputTooManyObjectsError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M599.5,-260C599.5,-260 477.5,-260 477.5,-260 474.5,-260 471.5,-257 471.5,-254 471.5,-254 471.5,-248 471.5,-248 471.5,-245 474.5,-242 477.5,-242 477.5,-242 599.5,-242 599.5,-242 602.5,-242 605.5,-245 605.5,-248 605.5,-248 605.5,-254 605.5,-254 605.5,-257 602.5,-260 599.5,-260"/>
+<text text-anchor="start" x="479.5" y="-248.8" font-family="Helvetica,sans-Serif" font-size="9.00">InputTooManyObjectsError.ts</text>
 </a>
 </g>
 </g>
 <!-- src/infrastructure/validateInput.ts&#45;&gt;src/domain/errors/InputTooManyObjectsError.ts -->
 <g id="edge16" class="edge">
 <title>src/infrastructure/validateInput.ts&#45;&gt;src/domain/errors/InputTooManyObjectsError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M405.65,-42.09C420.14,-50.29 439.82,-63.71 451,-81 459.67,-94.4 447.52,-104.92 459,-116 461.13,-118.06 463.46,-119.88 465.93,-121.49"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="464.93,-123.34 471.19,-124.49 467.02,-119.69 464.93,-123.34"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M407.36,-42.1C422.22,-50.07 441.55,-63.17 451,-81 459.08,-96.24 447.67,-223 459,-236 461.06,-238.36 463.36,-240.42 465.85,-242.22"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="465.01,-244.16 471.21,-245.54 467.22,-240.59 465.01,-244.16"/>
 </g>
 <!-- src/domain/aggregates/ServiceSlaAggregate.ts -->
 <g id="node4" class="node">
 <title>src/domain/aggregates/ServiceSlaAggregate.ts</title>
 <g id="a_node4"><a xlink:href="src/domain/aggregates/ServiceSlaAggregate.ts" xlink:title="ServiceSlaAggregate.ts">
-<path fill="#ddfeff" stroke="black" d="M437,-350C437,-350 336,-350 336,-350 333,-350 330,-347 330,-344 330,-344 330,-338 330,-338 330,-335 333,-332 336,-332 336,-332 437,-332 437,-332 440,-332 443,-335 443,-338 443,-338 443,-344 443,-344 443,-347 440,-350 437,-350"/>
-<text text-anchor="start" x="338" y="-338.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSlaAggregate.ts</text>
+<path fill="#ddfeff" stroke="black" d="M437,-470C437,-470 336,-470 336,-470 333,-470 330,-467 330,-464 330,-464 330,-458 330,-458 330,-455 333,-452 336,-452 336,-452 437,-452 437,-452 440,-452 443,-455 443,-458 443,-458 443,-464 443,-464 443,-467 440,-470 437,-470"/>
+<text text-anchor="start" x="338" y="-458.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSlaAggregate.ts</text>
 </a>
 </g>
 </g>
 <!-- src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/aggregates/ServiceSlaAggregate.ts -->
 <g id="edge17" class="edge">
 <title>src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/aggregates/ServiceSlaAggregate.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M233.31,-140.42C238.05,-170.97 257.17,-268.24 314,-319 318.82,-323.31 324.47,-326.77 330.44,-329.55"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="329.66,-331.5 336,-331.93 331.31,-327.64 329.66,-331.5"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M232.68,-230.45C235.61,-264.05 250.08,-378.88 314,-439 318.47,-443.2 323.73,-446.61 329.32,-449.36"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="328.69,-451.37 335.02,-451.9 330.4,-447.54 328.69,-451.37"/>
 </g>
 <!-- src/domain/data/serviceSlaData.ts -->
 <g id="node10" class="node">
 <title>src/domain/data/serviceSlaData.ts</title>
 <g id="a_node10"><a xlink:href="src/domain/data/serviceSlaData.ts" xlink:title="serviceSlaData.ts">
-<path fill="#ddfeff" stroke="black" d="M424.5,-425C424.5,-425 348.5,-425 348.5,-425 345.5,-425 342.5,-422 342.5,-419 342.5,-419 342.5,-413 342.5,-413 342.5,-410 345.5,-407 348.5,-407 348.5,-407 424.5,-407 424.5,-407 427.5,-407 430.5,-410 430.5,-413 430.5,-413 430.5,-419 430.5,-419 430.5,-422 427.5,-425 424.5,-425"/>
-<text text-anchor="start" x="350.5" y="-413.8" font-family="Helvetica,sans-Serif" font-size="9.00">serviceSlaData.ts</text>
+<path fill="#ddfeff" stroke="black" d="M424.5,-155C424.5,-155 348.5,-155 348.5,-155 345.5,-155 342.5,-152 342.5,-149 342.5,-149 342.5,-143 342.5,-143 342.5,-140 345.5,-137 348.5,-137 348.5,-137 424.5,-137 424.5,-137 427.5,-137 430.5,-140 430.5,-143 430.5,-143 430.5,-149 430.5,-149 430.5,-152 427.5,-155 424.5,-155"/>
+<text text-anchor="start" x="350.5" y="-143.8" font-family="Helvetica,sans-Serif" font-size="9.00">serviceSlaData.ts</text>
 </a>
 </g>
 </g>
 <!-- src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/data/serviceSlaData.ts -->
 <g id="edge18" class="edge">
 <title>src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/data/serviceSlaData.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M232.6,-140.31C235.36,-175.67 249.54,-303.45 314,-379 323.68,-390.35 337.72,-398.67 350.8,-404.51"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="349.99,-406.45 356.33,-406.86 351.64,-402.58 349.99,-406.45"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M250.52,-211.95C278.29,-198.38 330.75,-172.75 361.45,-157.75"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="362.45,-159.6 366.92,-155.08 360.61,-155.83 362.45,-159.6"/>
 </g>
 <!-- src/domain/valueObjects/ServiceEntries.ts -->
 <g id="node22" class="node">
 <title>src/domain/valueObjects/ServiceEntries.ts</title>
 <g id="a_node22"><a xlink:href="src/domain/valueObjects/ServiceEntries.ts" xlink:title="ServiceEntries.ts">
-<path fill="#ddfeff" stroke="black" d="M423,-110C423,-110 350,-110 350,-110 347,-110 344,-107 344,-104 344,-104 344,-98 344,-98 344,-95 347,-92 350,-92 350,-92 423,-92 423,-92 426,-92 429,-95 429,-98 429,-98 429,-104 429,-104 429,-107 426,-110 423,-110"/>
-<text text-anchor="start" x="352" y="-98.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceEntries.ts</text>
+<path fill="#ddfeff" stroke="black" d="M423,-230C423,-230 350,-230 350,-230 347,-230 344,-227 344,-224 344,-224 344,-218 344,-218 344,-215 347,-212 350,-212 350,-212 423,-212 423,-212 426,-212 429,-215 429,-218 429,-218 429,-224 429,-224 429,-227 426,-230 423,-230"/>
+<text text-anchor="start" x="352" y="-218.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceEntries.ts</text>
 </a>
 </g>
 </g>
 <!-- src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/valueObjects/ServiceEntries.ts -->
 <g id="edge19" class="edge">
 <title>src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/valueObjects/ServiceEntries.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M278.06,-122C296.86,-118.32 318.61,-114.07 337.6,-110.36"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="338.44,-112.34 343.92,-109.13 337.63,-108.22 338.44,-112.34"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M298.43,-221C311.66,-221 325.31,-221 337.76,-221"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="337.77,-223.1 343.77,-221 337.77,-218.9 337.77,-223.1"/>
 </g>
 <!-- src/domain/valueObjects/ServiceSlas.ts -->
 <g id="node23" class="node">
 <title>src/domain/valueObjects/ServiceSlas.ts</title>
 <g id="a_node23"><a xlink:href="src/domain/valueObjects/ServiceSlas.ts" xlink:title="ServiceSlas.ts">
-<path fill="#ddfeff" stroke="black" d="M417.5,-140C417.5,-140 355.5,-140 355.5,-140 352.5,-140 349.5,-137 349.5,-134 349.5,-134 349.5,-128 349.5,-128 349.5,-125 352.5,-122 355.5,-122 355.5,-122 417.5,-122 417.5,-122 420.5,-122 423.5,-125 423.5,-128 423.5,-128 423.5,-134 423.5,-134 423.5,-137 420.5,-140 417.5,-140"/>
-<text text-anchor="start" x="357.5" y="-128.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSlas.ts</text>
+<path fill="#ddfeff" stroke="black" d="M417.5,-260C417.5,-260 355.5,-260 355.5,-260 352.5,-260 349.5,-257 349.5,-254 349.5,-254 349.5,-248 349.5,-248 349.5,-245 352.5,-242 355.5,-242 355.5,-242 417.5,-242 417.5,-242 420.5,-242 423.5,-245 423.5,-248 423.5,-248 423.5,-254 423.5,-254 423.5,-257 420.5,-260 417.5,-260"/>
+<text text-anchor="start" x="357.5" y="-248.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSlas.ts</text>
 </a>
 </g>
 </g>
 <!-- src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/valueObjects/ServiceSlas.ts -->
 <g id="edge20" class="edge">
 <title>src/usecases/CalculateMaxSlaUseCase.ts&#45;&gt;src/domain/valueObjects/ServiceSlas.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M298.43,-131C313.61,-131 329.34,-131 343.18,-131"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="343.4,-133.1 349.4,-131 343.4,-128.9 343.4,-133.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M278.06,-230C298.7,-234.04 322.9,-238.77 343.1,-242.71"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="342.94,-244.82 349.23,-243.91 343.74,-240.7 342.94,-244.82"/>
 </g>
 <!-- src/domain/errors/MissingServiceEntriesError.ts -->
 <g id="node5" class="node">
 <title>src/domain/errors/MissingServiceEntriesError.ts</title>
 <g id="a_node5"><a xlink:href="src/domain/errors/MissingServiceEntriesError.ts" xlink:title="MissingServiceEntriesError.ts">
-<path fill="#ddfeff" stroke="black" d="M601,-320C601,-320 476,-320 476,-320 473,-320 470,-317 470,-314 470,-314 470,-308 470,-308 470,-305 473,-302 476,-302 476,-302 601,-302 601,-302 604,-302 607,-305 607,-308 607,-308 607,-314 607,-314 607,-317 604,-320 601,-320"/>
-<text text-anchor="start" x="478" y="-308.8" font-family="Helvetica,sans-Serif" font-size="9.00">MissingServiceEntriesError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M601,-470C601,-470 476,-470 476,-470 473,-470 470,-467 470,-464 470,-464 470,-458 470,-458 470,-455 473,-452 476,-452 476,-452 601,-452 601,-452 604,-452 607,-455 607,-458 607,-458 607,-464 607,-464 607,-467 604,-470 601,-470"/>
+<text text-anchor="start" x="478" y="-458.8" font-family="Helvetica,sans-Serif" font-size="9.00">MissingServiceEntriesError.ts</text>
 </a>
 </g>
 </g>
 <!-- src/domain/aggregates/ServiceSlaAggregate.ts&#45;&gt;src/domain/errors/MissingServiceEntriesError.ts -->
 <g id="edge3" class="edge">
 <title>src/domain/aggregates/ServiceSlaAggregate.ts&#45;&gt;src/domain/errors/MissingServiceEntriesError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.82,-331.99C439.41,-329.99 449.55,-327.89 459,-326 466.81,-324.44 475.06,-322.82 483.16,-321.25"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="483.82,-323.26 489.32,-320.07 483.03,-319.14 483.82,-323.26"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M443.35,-461C449.99,-461 456.83,-461 463.67,-461"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="463.93,-463.1 469.93,-461 463.93,-458.9 463.93,-463.1"/>
 </g>
 <!-- src/domain/errors/ServiceMissingSlaError.ts -->
 <g id="node6" class="node">
 <title>src/domain/errors/ServiceMissingSlaError.ts</title>
 <g id="a_node6"><a xlink:href="src/domain/errors/ServiceMissingSlaError.ts" xlink:title="ServiceMissingSlaError.ts">
-<path fill="#ddfeff" stroke="black" d="M593.5,-350C593.5,-350 483.5,-350 483.5,-350 480.5,-350 477.5,-347 477.5,-344 477.5,-344 477.5,-338 477.5,-338 477.5,-335 480.5,-332 483.5,-332 483.5,-332 593.5,-332 593.5,-332 596.5,-332 599.5,-335 599.5,-338 599.5,-338 599.5,-344 599.5,-344 599.5,-347 596.5,-350 593.5,-350"/>
-<text text-anchor="start" x="485.5" y="-338.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceMissingSlaError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M593.5,-440C593.5,-440 483.5,-440 483.5,-440 480.5,-440 477.5,-437 477.5,-434 477.5,-434 477.5,-428 477.5,-428 477.5,-425 480.5,-422 483.5,-422 483.5,-422 593.5,-422 593.5,-422 596.5,-422 599.5,-425 599.5,-428 599.5,-428 599.5,-434 599.5,-434 599.5,-437 596.5,-440 593.5,-440"/>
+<text text-anchor="start" x="485.5" y="-428.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceMissingSlaError.ts</text>
 </a>
 </g>
 </g>
 <!-- src/domain/aggregates/ServiceSlaAggregate.ts&#45;&gt;src/domain/errors/ServiceMissingSlaError.ts -->
 <g id="edge4" class="edge">
 <title>src/domain/aggregates/ServiceSlaAggregate.ts&#45;&gt;src/domain/errors/ServiceMissingSlaError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M443.35,-341C452.44,-341 461.93,-341 471.24,-341"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="471.32,-343.1 477.32,-341 471.32,-338.9 471.32,-343.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.82,-451.99C439.41,-449.99 449.55,-447.89 459,-446 466.81,-444.44 475.06,-442.82 483.16,-441.25"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="483.82,-443.26 489.32,-440.07 483.03,-439.14 483.82,-443.26"/>
 </g>
 <!-- src/domain/data/aws.json -->
 <g id="node7" class="node">
 <title>src/domain/data/aws.json</title>
 <g id="a_node7"><a xlink:href="src/domain/data/aws.json" xlink:title="aws.json">
-<path fill="#ffee44" stroke="black" d="M559.5,-410C559.5,-410 517.5,-410 517.5,-410 514.5,-410 511.5,-407 511.5,-404 511.5,-404 511.5,-398 511.5,-398 511.5,-395 514.5,-392 517.5,-392 517.5,-392 559.5,-392 559.5,-392 562.5,-392 565.5,-395 565.5,-398 565.5,-398 565.5,-404 565.5,-404 565.5,-407 562.5,-410 559.5,-410"/>
-<text text-anchor="start" x="520" y="-398.8" font-family="Helvetica,sans-Serif" font-size="9.00">aws.json</text>
+<path fill="#ffee44" stroke="black" d="M559.5,-110C559.5,-110 517.5,-110 517.5,-110 514.5,-110 511.5,-107 511.5,-104 511.5,-104 511.5,-98 511.5,-98 511.5,-95 514.5,-92 517.5,-92 517.5,-92 559.5,-92 559.5,-92 562.5,-92 565.5,-95 565.5,-98 565.5,-98 565.5,-104 565.5,-104 565.5,-107 562.5,-110 559.5,-110"/>
+<text text-anchor="start" x="520" y="-98.8" font-family="Helvetica,sans-Serif" font-size="9.00">aws.json</text>
 </a>
 </g>
 </g>
@@ -246,8 +246,8 @@
 <g id="node8" class="node">
 <title>src/domain/data/azure.json</title>
 <g id="a_node8"><a xlink:href="src/domain/data/azure.json" xlink:title="azure.json">
-<path fill="#ffee44" stroke="black" d="M562,-440C562,-440 515,-440 515,-440 512,-440 509,-437 509,-434 509,-434 509,-428 509,-428 509,-425 512,-422 515,-422 515,-422 562,-422 562,-422 565,-422 568,-425 568,-428 568,-428 568,-434 568,-434 568,-437 565,-440 562,-440"/>
-<text text-anchor="start" x="517" y="-428.8" font-family="Helvetica,sans-Serif" font-size="9.00">azure.json</text>
+<path fill="#ffee44" stroke="black" d="M562,-140C562,-140 515,-140 515,-140 512,-140 509,-137 509,-134 509,-134 509,-128 509,-128 509,-125 512,-122 515,-122 515,-122 562,-122 562,-122 565,-122 568,-125 568,-128 568,-128 568,-134 568,-134 568,-137 565,-140 562,-140"/>
+<text text-anchor="start" x="517" y="-128.8" font-family="Helvetica,sans-Serif" font-size="9.00">azure.json</text>
 </a>
 </g>
 </g>
@@ -255,35 +255,35 @@
 <g id="node9" class="node">
 <title>src/domain/data/gcp.json</title>
 <g id="a_node9"><a xlink:href="src/domain/data/gcp.json" xlink:title="gcp.json">
-<path fill="#ffee44" stroke="black" d="M559.5,-470C559.5,-470 517.5,-470 517.5,-470 514.5,-470 511.5,-467 511.5,-464 511.5,-464 511.5,-458 511.5,-458 511.5,-455 514.5,-452 517.5,-452 517.5,-452 559.5,-452 559.5,-452 562.5,-452 565.5,-455 565.5,-458 565.5,-458 565.5,-464 565.5,-464 565.5,-467 562.5,-470 559.5,-470"/>
-<text text-anchor="start" x="521" y="-458.8" font-family="Helvetica,sans-Serif" font-size="9.00">gcp.json</text>
+<path fill="#ffee44" stroke="black" d="M559.5,-170C559.5,-170 517.5,-170 517.5,-170 514.5,-170 511.5,-167 511.5,-164 511.5,-164 511.5,-158 511.5,-158 511.5,-155 514.5,-152 517.5,-152 517.5,-152 559.5,-152 559.5,-152 562.5,-152 565.5,-155 565.5,-158 565.5,-158 565.5,-164 565.5,-164 565.5,-167 562.5,-170 559.5,-170"/>
+<text text-anchor="start" x="521" y="-158.8" font-family="Helvetica,sans-Serif" font-size="9.00">gcp.json</text>
 </a>
 </g>
 </g>
 <!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/aws.json -->
 <g id="edge5" class="edge">
 <title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/aws.json</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-411.66C454.51,-409.3 483.26,-406.42 504.95,-404.26"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="505.39,-406.32 511.15,-403.63 504.97,-402.14 505.39,-406.32"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M406.22,-136.87C420.42,-130.27 440.57,-121.56 459,-116 473.99,-111.48 491.03,-108.03 505.39,-105.58"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="505.78,-107.64 511.36,-104.59 505.1,-103.5 505.78,-107.64"/>
 </g>
 <!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/azure.json -->
 <g id="edge6" class="edge">
 <title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/azure.json</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-420.34C453.72,-422.62 481.35,-425.38 502.76,-427.53"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="502.72,-429.63 508.9,-428.14 503.14,-425.45 502.72,-429.63"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-141.66C453.72,-139.38 481.35,-136.62 502.76,-134.47"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="503.14,-136.55 508.9,-133.86 502.72,-132.37 503.14,-136.55"/>
 </g>
 <!-- src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/gcp.json -->
 <g id="edge7" class="edge">
 <title>src/domain/data/serviceSlaData.ts&#45;&gt;src/domain/data/gcp.json</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M406.22,-425.13C420.42,-431.73 440.57,-440.44 459,-446 473.99,-450.52 491.03,-453.97 505.39,-456.42"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="505.1,-458.5 511.36,-457.41 505.78,-454.36 505.1,-458.5"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M430.89,-150.34C454.51,-152.7 483.26,-155.58 504.95,-157.74"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="504.97,-159.86 511.15,-158.37 505.39,-155.68 504.97,-159.86"/>
 </g>
 <!-- src/domain/errors/InvalidServiceDataError.ts -->
 <g id="node14" class="node">
 <title>src/domain/errors/InvalidServiceDataError.ts</title>
 <g id="a_node14"><a xlink:href="src/domain/errors/InvalidServiceDataError.ts" xlink:title="InvalidServiceDataError.ts">
-<path fill="#ddfeff" stroke="black" d="M594,-290C594,-290 483,-290 483,-290 480,-290 477,-287 477,-284 477,-284 477,-278 477,-278 477,-275 480,-272 483,-272 483,-272 594,-272 594,-272 597,-272 600,-275 600,-278 600,-278 600,-284 600,-284 600,-287 597,-290 594,-290"/>
-<text text-anchor="start" x="485" y="-278.8" font-family="Helvetica,sans-Serif" font-size="9.00">InvalidServiceDataError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M594,-410C594,-410 483,-410 483,-410 480,-410 477,-407 477,-404 477,-404 477,-398 477,-398 477,-395 480,-392 483,-392 483,-392 594,-392 594,-392 597,-392 600,-395 600,-398 600,-398 600,-404 600,-404 600,-407 597,-410 594,-410"/>
+<text text-anchor="start" x="485" y="-398.8" font-family="Helvetica,sans-Serif" font-size="9.00">InvalidServiceDataError.ts</text>
 </a>
 </g>
 </g>
@@ -291,8 +291,8 @@
 <g id="node15" class="node">
 <title>src/domain/errors/InvalidServiceInputDataError.ts</title>
 <g id="a_node15"><a xlink:href="src/domain/errors/InvalidServiceInputDataError.ts" xlink:title="InvalidServiceInputDataError.ts">
-<path fill="#ddfeff" stroke="black" d="M604,-200C604,-200 473,-200 473,-200 470,-200 467,-197 467,-194 467,-194 467,-188 467,-188 467,-185 470,-182 473,-182 473,-182 604,-182 604,-182 607,-182 610,-185 610,-188 610,-188 610,-194 610,-194 610,-197 607,-200 604,-200"/>
-<text text-anchor="start" x="475" y="-188.8" font-family="Helvetica,sans-Serif" font-size="9.00">InvalidServiceInputDataError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M604,-350C604,-350 473,-350 473,-350 470,-350 467,-347 467,-344 467,-344 467,-338 467,-338 467,-335 470,-332 473,-332 473,-332 604,-332 604,-332 607,-332 610,-335 610,-338 610,-338 610,-344 610,-344 610,-347 607,-350 604,-350"/>
+<text text-anchor="start" x="475" y="-338.8" font-family="Helvetica,sans-Serif" font-size="9.00">InvalidServiceInputDataError.ts</text>
 </a>
 </g>
 </g>
@@ -300,8 +300,8 @@
 <g id="node16" class="node">
 <title>src/domain/errors/MissingItemsToValidateError.ts</title>
 <g id="a_node16"><a xlink:href="src/domain/errors/MissingItemsToValidateError.ts" xlink:title="MissingItemsToValidateError.ts">
-<path fill="#ddfeff" stroke="black" d="M603.5,-260C603.5,-260 473.5,-260 473.5,-260 470.5,-260 467.5,-257 467.5,-254 467.5,-254 467.5,-248 467.5,-248 467.5,-245 470.5,-242 473.5,-242 473.5,-242 603.5,-242 603.5,-242 606.5,-242 609.5,-245 609.5,-248 609.5,-248 609.5,-254 609.5,-254 609.5,-257 606.5,-260 603.5,-260"/>
-<text text-anchor="start" x="475.5" y="-248.8" font-family="Helvetica,sans-Serif" font-size="9.00">MissingItemsToValidateError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M603.5,-380C603.5,-380 473.5,-380 473.5,-380 470.5,-380 467.5,-377 467.5,-374 467.5,-374 467.5,-368 467.5,-368 467.5,-365 470.5,-362 473.5,-362 473.5,-362 603.5,-362 603.5,-362 606.5,-362 609.5,-365 609.5,-368 609.5,-368 609.5,-374 609.5,-374 609.5,-377 606.5,-380 603.5,-380"/>
+<text text-anchor="start" x="475.5" y="-368.8" font-family="Helvetica,sans-Serif" font-size="9.00">MissingItemsToValidateError.ts</text>
 </a>
 </g>
 </g>
@@ -309,8 +309,8 @@
 <g id="node17" class="node">
 <title>src/domain/errors/UnknownInputError.ts</title>
 <g id="a_node17"><a xlink:href="src/domain/errors/UnknownInputError.ts" xlink:title="UnknownInputError.ts">
-<path fill="#ddfeff" stroke="black" d="M585,-230C585,-230 492,-230 492,-230 489,-230 486,-227 486,-224 486,-224 486,-218 486,-218 486,-215 489,-212 492,-212 492,-212 585,-212 585,-212 588,-212 591,-215 591,-218 591,-218 591,-224 591,-224 591,-227 588,-230 585,-230"/>
-<text text-anchor="start" x="494" y="-218.8" font-family="Helvetica,sans-Serif" font-size="9.00">UnknownInputError.ts</text>
+<path fill="#ddfeff" stroke="black" d="M585,-320C585,-320 492,-320 492,-320 489,-320 486,-317 486,-314 486,-314 486,-308 486,-308 486,-305 489,-302 492,-302 492,-302 585,-302 585,-302 588,-302 591,-305 591,-308 591,-308 591,-314 591,-314 591,-317 588,-320 585,-320"/>
+<text text-anchor="start" x="494" y="-308.8" font-family="Helvetica,sans-Serif" font-size="9.00">UnknownInputError.ts</text>
 </a>
 </g>
 </g>
@@ -318,8 +318,8 @@
 <g id="node18" class="node">
 <title>src/domain/interfaces/ServiceEntry.ts</title>
 <g id="a_node18"><a xlink:href="src/domain/interfaces/ServiceEntry.ts" xlink:title="ServiceEntry.ts">
-<path fill="#ccffcc" stroke="black" d="M419,-290C419,-290 354,-290 354,-290 351,-290 348,-287 348,-284 348,-284 348,-278 348,-278 348,-275 351,-272 354,-272 354,-272 419,-272 419,-272 422,-272 425,-275 425,-278 425,-278 425,-284 425,-284 425,-287 422,-290 419,-290"/>
-<text text-anchor="start" x="356" y="-278.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceEntry.ts</text>
+<path fill="#ccffcc" stroke="black" d="M419,-410C419,-410 354,-410 354,-410 351,-410 348,-407 348,-404 348,-404 348,-398 348,-398 348,-395 351,-392 354,-392 354,-392 419,-392 419,-392 422,-392 425,-395 425,-398 425,-398 425,-404 425,-404 425,-407 422,-410 419,-410"/>
+<text text-anchor="start" x="356" y="-398.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceEntry.ts</text>
 </a>
 </g>
 </g>
@@ -327,8 +327,8 @@
 <g id="node19" class="node">
 <title>src/domain/interfaces/ServiceSla.ts</title>
 <g id="a_node19"><a xlink:href="src/domain/interfaces/ServiceSla.ts" xlink:title="ServiceSla.ts">
-<path fill="#ccffcc" stroke="black" d="M415.5,-260C415.5,-260 357.5,-260 357.5,-260 354.5,-260 351.5,-257 351.5,-254 351.5,-254 351.5,-248 351.5,-248 351.5,-245 354.5,-242 357.5,-242 357.5,-242 415.5,-242 415.5,-242 418.5,-242 421.5,-245 421.5,-248 421.5,-248 421.5,-254 421.5,-254 421.5,-257 418.5,-260 415.5,-260"/>
-<text text-anchor="start" x="359.5" y="-248.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSla.ts</text>
+<path fill="#ccffcc" stroke="black" d="M415.5,-380C415.5,-380 357.5,-380 357.5,-380 354.5,-380 351.5,-377 351.5,-374 351.5,-374 351.5,-368 351.5,-368 351.5,-365 354.5,-362 357.5,-362 357.5,-362 415.5,-362 415.5,-362 418.5,-362 421.5,-365 421.5,-368 421.5,-368 421.5,-374 421.5,-374 421.5,-377 418.5,-380 415.5,-380"/>
+<text text-anchor="start" x="359.5" y="-368.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSla.ts</text>
 </a>
 </g>
 </g>
@@ -336,8 +336,8 @@
 <g id="node20" class="node">
 <title>src/domain/interfaces/ServiceSlaAggregate.ts</title>
 <g id="a_node20"><a xlink:href="src/domain/interfaces/ServiceSlaAggregate.ts" xlink:title="ServiceSlaAggregate.ts">
-<path fill="#ccffcc" stroke="black" d="M437,-230C437,-230 336,-230 336,-230 333,-230 330,-227 330,-224 330,-224 330,-218 330,-218 330,-215 333,-212 336,-212 336,-212 437,-212 437,-212 440,-212 443,-215 443,-218 443,-218 443,-224 443,-224 443,-227 440,-230 437,-230"/>
-<text text-anchor="start" x="338" y="-218.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSlaAggregate.ts</text>
+<path fill="#ccffcc" stroke="black" d="M437,-350C437,-350 336,-350 336,-350 333,-350 330,-347 330,-344 330,-344 330,-338 330,-338 330,-335 333,-332 336,-332 336,-332 437,-332 437,-332 440,-332 443,-335 443,-338 443,-338 443,-344 443,-344 443,-347 440,-350 437,-350"/>
+<text text-anchor="start" x="338" y="-338.8" font-family="Helvetica,sans-Serif" font-size="9.00">ServiceSlaAggregate.ts</text>
 </a>
 </g>
 </g>
@@ -345,55 +345,55 @@
 <g id="node21" class="node">
 <title>src/domain/interfaces/SlaMaxInput.ts</title>
 <g id="a_node21"><a xlink:href="src/domain/interfaces/SlaMaxInput.ts" xlink:title="SlaMaxInput.ts">
-<path fill="#ccffcc" stroke="black" d="M419,-200C419,-200 354,-200 354,-200 351,-200 348,-197 348,-194 348,-194 348,-188 348,-188 348,-185 351,-182 354,-182 354,-182 419,-182 419,-182 422,-182 425,-185 425,-188 425,-188 425,-194 425,-194 425,-197 422,-200 419,-200"/>
-<text text-anchor="start" x="356" y="-188.8" font-family="Helvetica,sans-Serif" font-size="9.00">SlaMaxInput.ts</text>
+<path fill="#ccffcc" stroke="black" d="M419,-320C419,-320 354,-320 354,-320 351,-320 348,-317 348,-314 348,-314 348,-308 348,-308 348,-305 351,-302 354,-302 354,-302 419,-302 419,-302 422,-302 425,-305 425,-308 425,-308 425,-314 425,-314 425,-317 422,-320 419,-320"/>
+<text text-anchor="start" x="356" y="-308.8" font-family="Helvetica,sans-Serif" font-size="9.00">SlaMaxInput.ts</text>
 </a>
 </g>
 </g>
 <!-- src/domain/valueObjects/ServiceEntries.ts&#45;&gt;src/domain/errors/InvalidServiceInputDataError.ts -->
 <g id="edge8" class="edge">
 <title>src/domain/valueObjects/ServiceEntries.ts&#45;&gt;src/domain/errors/InvalidServiceInputDataError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.29,-103.45C437.49,-105.81 445.3,-109.7 451,-116 469.05,-135.94 440.52,-156.45 459,-176 459.89,-176.95 460.83,-177.84 461.8,-178.69"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="460.87,-180.62 466.92,-182.56 463.4,-177.27 460.87,-180.62"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.17,-223.17C437.48,-225.53 445.36,-229.49 451,-236 464.14,-251.18 445.53,-311.11 459,-326 459.87,-326.96 460.79,-327.88 461.74,-328.74"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="460.76,-330.65 466.78,-332.68 463.35,-327.34 460.76,-330.65"/>
 </g>
 <!-- src/domain/valueObjects/ServiceEntries.ts&#45;&gt;src/domain/errors/MissingItemsToValidateError.ts -->
 <g id="edge9" class="edge">
 <title>src/domain/valueObjects/ServiceEntries.ts&#45;&gt;src/domain/errors/MissingItemsToValidateError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.28,-103.08C437.58,-105.44 445.44,-109.43 451,-116 468.27,-136.39 441.29,-215.98 459,-236 460.09,-237.23 461.24,-238.37 462.45,-239.44"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="461.35,-241.24 467.39,-243.2 463.89,-237.9 461.35,-241.24"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.28,-223.08C437.58,-225.44 445.44,-229.43 451,-236 468.27,-256.39 441.29,-335.98 459,-356 460.09,-357.23 461.24,-358.37 462.45,-359.44"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="461.35,-361.24 467.39,-363.2 463.89,-357.9 461.35,-361.24"/>
 </g>
 <!-- src/domain/valueObjects/ServiceEntries.ts&#45;&gt;src/domain/errors/UnknownInputError.ts -->
 <g id="edge10" class="edge">
 <title>src/domain/valueObjects/ServiceEntries.ts&#45;&gt;src/domain/errors/UnknownInputError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.17,-103.17C437.48,-105.53 445.36,-109.49 451,-116 464.14,-131.18 445.53,-191.11 459,-206 464.56,-212.15 471.81,-216.25 479.64,-218.91"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="479.39,-221.02 485.73,-220.68 480.56,-216.99 479.39,-221.02"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M429.29,-223.45C437.49,-225.81 445.3,-229.7 451,-236 469.05,-255.94 440.52,-276.45 459,-296 464.7,-302.03 472.01,-306.06 479.88,-308.69"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="479.64,-310.81 485.99,-310.45 480.8,-306.77 479.64,-310.81"/>
 </g>
 <!-- src/domain/valueObjects/ServiceSlas.ts&#45;&gt;src/domain/errors/InvalidServiceDataError.ts -->
 <g id="edge11" class="edge">
 <title>src/domain/valueObjects/ServiceSlas.ts&#45;&gt;src/domain/errors/InvalidServiceDataError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M412.11,-140.01C425.96,-146.44 442.2,-156.53 451,-171 462.01,-189.1 444.82,-250.26 459,-266 462.54,-269.93 466.76,-273.02 471.38,-275.44"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="470.65,-277.41 476.98,-277.97 472.38,-273.58 470.65,-277.41"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M412.11,-260.01C425.96,-266.44 442.2,-276.53 451,-291 462.01,-309.1 444.82,-370.26 459,-386 462.54,-389.93 466.76,-393.02 471.38,-395.44"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="470.65,-397.41 476.98,-397.97 472.38,-393.58 470.65,-397.41"/>
 </g>
 <!-- src/domain/valueObjects/ServiceSlas.ts&#45;&gt;src/domain/errors/MissingItemsToValidateError.ts -->
 <g id="edge12" class="edge">
 <title>src/domain/valueObjects/ServiceSlas.ts&#45;&gt;src/domain/errors/MissingItemsToValidateError.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M411.91,-140.14C425.69,-146.61 441.92,-156.7 451,-171 466.6,-195.57 439.11,-214.75 459,-236 460.08,-237.15 461.22,-238.23 462.41,-239.24"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="461.16,-240.93 467.23,-242.81 463.66,-237.56 461.16,-240.93"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M411.91,-260.14C425.69,-266.61 441.92,-276.7 451,-291 466.6,-315.57 439.11,-334.75 459,-356 460.08,-357.15 461.22,-358.23 462.41,-359.24"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="461.16,-360.93 467.23,-362.81 463.66,-357.56 461.16,-360.93"/>
 </g>
 <!-- src/index.ts -->
 <g id="node24" class="node">
 <title>src/index.ts</title>
 <g id="a_node24"><a xlink:href="src/index.ts" xlink:title="index.ts">
-<path fill="#ddfeff" stroke="black" d="M64,-115C64,-115 22,-115 22,-115 19,-115 16,-112 16,-109 16,-109 16,-103 16,-103 16,-100 19,-97 22,-97 22,-97 64,-97 64,-97 67,-97 70,-100 70,-103 70,-103 70,-109 70,-109 70,-112 67,-115 64,-115"/>
-<text text-anchor="start" x="27" y="-103.8" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
+<path fill="#ddfeff" stroke="black" d="M64,-183C64,-183 22,-183 22,-183 19,-183 16,-180 16,-177 16,-177 16,-171 16,-171 16,-168 19,-165 22,-165 22,-165 64,-165 64,-165 67,-165 70,-168 70,-171 70,-171 70,-177 70,-177 70,-180 67,-183 64,-183"/>
+<text text-anchor="start" x="27" y="-171.8" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
 </a>
 </g>
 </g>
 <!-- src/index.ts&#45;&gt;src/adapters/library.ts -->
 <g id="edge13" class="edge">
 <title>src/index.ts&#45;&gt;src/adapters/library.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M70.1,-106C73.12,-106 76.23,-106 79.33,-106"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="79.64,-108.1 85.64,-106 79.64,-103.9 79.64,-108.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M70.1,-174C73.12,-174 76.23,-174 79.33,-174"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="79.64,-176.1 85.64,-174 79.64,-171.9 79.64,-176.1"/>
 </g>
 </g>
 </svg>
