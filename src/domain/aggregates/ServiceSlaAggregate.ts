@@ -63,8 +63,7 @@ class ServiceSlaAggregate {
   public calculateMaxSla(): number {
     const slas = this.getServiceSlasFromEntries();
     const total = slas.reduce(
-      (prevValue: number, currentValue: number): number =>
-        (prevValue = (currentValue * prevValue) / 100)
+      (prevValue: number, currentValue: number): number => (currentValue * prevValue) / 100
     );
     return parseFloat(total.toPrecision(5));
   }
