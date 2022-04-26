@@ -10,15 +10,16 @@ func calculateSLA(input []combinedInput) (float64, error) {
 		return 0, fmt.Errorf("input of lenght zero")
 	}
 
-	round := func(v float64) float64 {
-		return math.Round(v*100) / 100
+	round := func(v float64, p uint) float64 {
+		ratio := math.Pow(10, float64(p))
+		return math.Round(v*ratio) / ratio
 	}
 
 	slaCalc := func(a, b float64) float64 {
 		if a == 0 {
-			return round(b)
+			return b
 		}
-		return round(a*b) / 100
+		return a * b / 100
 	}
 
 	var result float64
@@ -26,5 +27,5 @@ func calculateSLA(input []combinedInput) (float64, error) {
 		result = slaCalc(result, v.sla)
 	}
 
-	return round(result), nil
+	return round(result, 2), nil
 }

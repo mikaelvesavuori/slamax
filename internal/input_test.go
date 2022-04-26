@@ -110,7 +110,11 @@ func TestGetInputWithFS(t *testing.T) {
 		fsys := fstest.MapFS{
 			"input.yaml": {Data: []byte(c.inputFileContent)},
 		}
-		result, err := getInputWithFS(fsys, "input.yaml", fakeSLA)
+		file, err := fsys.Open("input.yaml")
+		if err != nil {
+			t.Fatalf("received unexpected error when opening file: %v", err)
+		}
+		result, err := getInputWithFile(file, fakeSLA)
 		if c.expectedErrorContains != "" {
 			if err == nil {
 				t.Fatalf("expected error to contain %q but received nil", c.expectedErrorContains)
@@ -137,24 +141,5 @@ func TestGetInputWithFS(t *testing.T) {
 				t.Fatalf("expected isCustom to be %t but received: %t", c.expectedResult[i].isCustom, v.isCustom)
 			}
 		}
-	}
-}
-
-func TestGetRawInput(t *testing.T) {
-	fsys := fstest.MapFS{
-		"input.yaml": {Data: []byte(`- name: aws-lambda`)},
-	}
-	inputData, err := getRawInput(fsys, "input.yaml")
-	if err != nil {
-		t.Fatalf("getInput failed: %v", err)
-	}
-	if len(inputData) != 1 {
-		t.Fatal("expected inputData to be 1")
-	}
-	if *inputData[0].Name != "aws-lambda" {
-		t.Fatal("expected Name to be aws-lambda")
-	}
-	if inputData[0].SLA != nil {
-		t.Fatal("expected SLA to be nil")
 	}
 }

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"io/fs"
 	"os"
 	"path/filepath"
@@ -20,16 +21,16 @@ type keyGetter interface {
 }
 
 func getInput(path string, cloudSLA keyGetter) ([]combinedInput, error) {
-	fsys, fileName, err := getRawInputFS(path)
+	file, err := getRawInputFile(path)
 	if err != nil {
 		return nil, err
 	}
 
-	return getInputWithFS(fsys, fileName, cloudSLA)
+	return getInputWithFile(file, cloudSLA)
 }
 
-func getInputWithFS(fsys fs.FS, fileName string, cloudSLA keyGetter) ([]combinedInput, error) {
-	input, err := getRawInput(fsys, fileName)
+func getInputWithFile(file fs.File, cloudSLA keyGetter) ([]combinedInput, error) {
+	input, err := getRawInput(file)
 	if err != nil {
 		return nil, err
 	}
@@ -84,18 +85,23 @@ type rawInput struct {
 	SLA         *float64 `yaml:"sla,omitempty"`
 }
 
-func getRawInputFS(path string) (fs.FS, string, error) {
-	dir, file := filepath.Split(path)
+func getRawInputFile(path string) (fs.File, error) {
+	dir, fileName := filepath.Split(path)
 	absDir, err := filepath.Abs(dir)
 	if err != nil {
-		return nil, "", err
+		return nil, err
 	}
 	fsys := os.DirFS(absDir)
-	return fsys, file, nil
+	return fsys.Open(fileName)
 }
 
-func getRawInput(fsys fs.FS, fileName string) ([]rawInput, error) {
-	dataBytes, err := fs.ReadFile(fsys, fileName)
+func getRawInput(file fs.File) ([]rawInput, error) {
+	dataBytes, err := io.ReadAll(file)
+	if err != nil {
+		return nil, err
+	}
+
+	err = file.Close()
 	if err != nil {
 		return nil, err
 	}
