@@ -1,6 +1,6 @@
 {
   "name": "slamax",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Calculates maximum composite SLA for a list of sequentially provided cloud services or your custom-defined services",
   "homepage": "https://github.com/mikaelvesavuori/slamax",
   "repository": {
