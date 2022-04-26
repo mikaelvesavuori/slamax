@@ -13,17 +13,23 @@ Here's a few use-cases you can use `SlaMax` for:
 
 **All SLA values are hosted in, and updated at, my other related project [`cloud-sla`](https://github.com/mikaelvesavuori/cloud-sla)**.
 
-## Important to understand about SLAs
+## 🤔 Just want to use an API rather than a library?
+
+Use [`maxslaofmy.systems`](https://maxslaofmy.systems/) to get `SlaMax` as an API.
+
+Use [`getsla.cloud`](https://getsla.cloud/) to retrieve SLA data via API.
+
+## 👩‍🏫 Important to understand about SLAs
 
 Since `SlaMax` has to generalize any given SLA into a number, it doesn't concern itself with any details around, for example, _what_ must be fulfilled on the customer side for the SLA to be applicable, or what exactly the SLA number refers to: All SLAs have various types of conditions that need to be fulfilled.
 
 Also note that, especially on the Azure side, certain services don't have their own SLAs, but instead they refer back to other services and their SLAs. This is because they're not unique serices, but rather composed of other services.
 
-## Installation
+## 🏗️ Installation
 
 Run `npm install slamax` or `yarn install slamax`.
 
-## Usage
+## 👩‍💻 Usage
 
 An example using both an AWS service (see below for all available services and their keys) and a custom service (must start with `custom`). Custom items **must** include an `sla` key with a numeric value.
 
@@ -48,6 +54,6 @@ const maxSla = SlaMax(listOfSlas);
 console.log(`The maximum composite SLA is ${maxSla}%`);
 ```
 
-## Diagram
+## 📊 Diagram
 
 ![Dependency graph](./diagrams/dependencygraph.svg)
