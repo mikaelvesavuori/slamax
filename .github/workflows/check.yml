@@ -1,7 +1,8 @@
 name: check
 
 on:
-  pull_request: [opened, reopened, review_requested]
+  pull_request:
+    types: [opened, reopened, review_requested]
 
 permissions:
   actions: read
