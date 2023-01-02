@@ -42,7 +42,7 @@
     "ava": "4",
     "babel-loader": "8",
     "c8": "7",
-    "dependency-cruiser": "11",
+    "dependency-cruiser": "12",
     "eslint": "8",
     "eslint-config-prettier": "8",
     "eslint-plugin-prettier": "4",
