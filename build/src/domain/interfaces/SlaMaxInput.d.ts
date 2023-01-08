@@ -1,4 +1,4 @@
-export declare type SlaMaxInput = {
+export type SlaMaxInput = {
     name: string;
     sla?: string;
     description?: string;

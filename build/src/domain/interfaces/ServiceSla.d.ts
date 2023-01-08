@@ -1,4 +1,4 @@
-export declare type ServiceSlasInput = {
+export type ServiceSlasInput = {
     serviceSlas: ServiceSlaData[];
 };
 export interface ServiceSla {

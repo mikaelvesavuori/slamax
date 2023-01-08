@@ -1,7 +1,7 @@
 import { ServiceSla } from './ServiceSla';
-export declare type ServiceEntryInput = {
+export type ServiceEntryInput = {
     userInputs: Record<string, any>[];
     serviceSlas: ServiceSla[];
     serviceNamesList: string[];
 };
-export declare type ServiceEntry = ServiceSla;
+export type ServiceEntry = ServiceSla;
