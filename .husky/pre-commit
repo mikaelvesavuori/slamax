@@ -5,6 +5,5 @@ npm run get:slas
 npm test
 npm run build
 npm run lint
-npm run lint:vale
 npm run docs
 git add .

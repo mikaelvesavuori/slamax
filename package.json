@@ -27,7 +27,6 @@
     "build:hosting": "npm run docs && cp -r diagrams typedoc-docs",
     "fix:export": "echo \"export { default as SlaMax } from './src/adapters/library';\" > build/index.d.ts",
     "lint": "npx eslint './src/**/*.ts' --quiet --fix",
-    "lint:vale": "vale README.md",
     "docs": "npm run docs:depcruise && npm run docs:typedoc",
     "docs:depcruise": "npx depcruise --include-only '^src' --output-type dot src | dot -T svg > diagrams/dependencygraph.svg",
     "docs:typedoc": "npx typedoc --entryPointStrategy expand",
